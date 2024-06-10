@@ -19,3 +19,4 @@ phoneNumbers.forEach((...phoneNumber) => {
       .then(message => console.log(`Message sent to ${phoneNumber}, SID: ${message.sid}`))
       .catch(error => console.error(`Error sending message to ${phoneNumber}:`, error));
 });
+console.log("Resolve all issues with it.")
